@@ -33,14 +33,14 @@ python main.py <command> [arguments]
 ### ➕ Add Task
 
 ```bash
-python main.py add "Your task description" [status]
+python main.py add "Your task description" "status" [status]
 ```
 
 - **status** (optional): `todo` (default), `done`, or `in-progress`
 
 **Example:**
 ```bash
-python main.py add "Finish homework" todo
+python main.py add "Finish homework" status todo
 ```
 
 ---

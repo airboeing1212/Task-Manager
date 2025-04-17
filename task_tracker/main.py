@@ -28,7 +28,14 @@ def add(arg,read):
 
     try:
         if arg[3] == 'status' :
-            status = arg[4]
+            for i in['todo', 'done', 'in-progress']:
+                if i == arg[4]:
+                    status = arg[4]
+                else:
+                    status = 'todo'
+
+            print('you gave a invalid status')
+            print('status is todo')              
         else:
             status = 'todo'
     except:
