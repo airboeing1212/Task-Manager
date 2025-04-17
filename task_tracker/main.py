@@ -17,10 +17,10 @@ list_dir = os.listdir(current_dir)
 data = {'task_manager' : []}
 temp_data =  {
             'id' : 0,
-            'description' : 1,
-            'status' : 1,
-            'createdAt' : 'can', 
-            'updatedAt' : 3,
+            'description' : None,
+            'status' : None,
+            'createdAt' : None, 
+            'updatedAt' : None,
         }
 
 
