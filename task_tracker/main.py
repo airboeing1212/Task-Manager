@@ -9,7 +9,7 @@ argv = sys.argv
 
 
 
-json_name = "can.json"
+json_name = "file.json" #change your file name if you want to
 
 current_dir = os.getcwd()
 list_dir = os.listdir(current_dir)
